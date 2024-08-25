@@ -33,6 +33,7 @@ export type IGuildPreferences = {
 	welcomeDMMessage: string;
 
 	groupStudyChannelId: string;
+	keywordRequestChannelId: string;
 	tagResourceApprovalChannelId: string;
 }>;
 
@@ -62,6 +63,7 @@ const schema = new Schema<IGuildPreferences>({
 	welcomeChannelMessage: { type: String, default: null },
 	welcomeDMMessage: { type: String, default: null },
 	groupStudyChannelId: { type: String, default: null },
+	keywordRequestChannelId: { type: String, default: null },
 	tagResourceApprovalChannelId: { type: String, default: null },
 });
 

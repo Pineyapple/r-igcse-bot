@@ -37,6 +37,11 @@ export const ywAliases = [
 ];
 
 export const tyAliases = [
+	"thanku",
+	"tankyou",
+	"tank you",
+	"thankyou",
+	"thank",
 	"ty",
 	"tyty",
 	"tyy",
@@ -470,6 +475,11 @@ export const preferences: Preference[] = [
 		name: "Archived Sessions Category",
 		type: "categoryChannel",
 		key: "archiveSessionCategoryId",
+	},
+	{
+		name: "Keyword Approval Channel",
+		type: "channel",
+		key: "keywordRequestChannelId",
 	},
 	{
 		name: "Tag Approval Channel",
